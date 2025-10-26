@@ -4,7 +4,8 @@ body {
   padding: 0;
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
-  background: url('backgroundd.jpg') no-repeat center center fixed;
+  background: url('https://www.pexels.com/
+https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?cs=srgb&dl=pexels-peng-liu-45946-169647.jpg&fm=jpg&_gl=1*1peqj25*_ga*NDQ4NDc2NjUxLjE3NjE0ODEzOTA.*_ga_8JE65Q40S6*czE3NjE0ODEzODkkbzEkZzEkdDE3NjE0ODE1NDQkajYwJGwwJGgw') no-repeat center center fixed;
   background-size: cover;
   background-attachment: fixed;
 }
