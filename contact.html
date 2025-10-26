@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — NightDrop</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">NightDrop</a>
+      <nav class="nav" id="nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button id="menuBtn" class="menu-btn">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="contact-section">
+      <h1>Contact Us</h1>
+      <p class="muted">Have a question or want product sourcing help? Use the form below.</p>
+
+      <form id="contactForm" class="contact-form" method="POST" action="https://formspree.io/f/yourformid">
+        <!-- Replace the action with your Formspree endpoint (instructions below) -->
+        <label>
+          Your name
+          <input name="name" type="text" required />
+        </label>
+        <label>
+          Email
+          <input name="email" type="email" required />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="6" required></textarea>
+        </label>
+        <div class="form-row">
+          <button class="btn" type="submit">Send message</button>
+          <button class="btn ghost" type="reset">Reset</button>
+        </div>
+
+        <div id="formStatus" class="form-status" aria-live="polite"></div>
+      </form>
+
+      <aside class="contact-info">
+        <h4>Other ways to reach us</h4>
+        <p>Email: <a href="mailto:you@yourdomain.com">you@yourdomain.com</a></p>
+        <p>Instagram: <a href="#">@nightdrop</a></p>
+      </aside>
+
+      <div class="form-note">
+        <strong>Form setup:</strong> This form posts to Formspree. To receive messages:
+        <ol>
+          <li>Go to <a href="https://formspree.io" target="_blank" rel="noopener">formspree.io</a> and create an account (free plan available).</li>
+          <li>Create a new form and copy its endpoint (something like <code>https://formspree.io/f/abcde</code>).</li>
+          <li>Replace the <code>action</code> attribute in this form with your endpoint.</li>
+        </ol>
+        If you don't want to set up Formspree yet, you can temporarily set the form's action to <code>mailto:you@yourdomain.com</code> but that uses the user's email client and is less reliable.
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year4"></span> NightDrop</div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
