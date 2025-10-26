@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Products — NightDrop</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">NightDrop</a>
+      <nav class="nav" id="nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button id="menuBtn" class="menu-btn">☰</button>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="products-list">
+      <h1>Products & Services</h1>
+      <p class="muted">Sample catalogue — swap images, prices and descriptions for your real dropship items.</p>
+
+      <div class="grid grid-3">
+        <!-- Item 1 -->
+        <article id="item1" class="card">
+          <img src="https://placehold.co/600x400/0b1220/9ca3af/png?text=Item+1" alt="Compact Bluetooth Speaker">
+          <div class="card-body">
+            <h3>Compact Bluetooth Speaker</h3>
+            <p class="price">$29.99</p>
+            <p>Portable speaker with 12-hour battery and rich bass. Perfect for small gatherings.</p>
+            <div class="card-actions">
+              <button class="btn" onclick="openCheckout('Compact Bluetooth Speaker',29.99)">Buy</button>
+              <a class="btn ghost" href="#">More</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Item 2 -->
+        <article id="item2" class="card">
+          <img src="https://placehold.co/600x400/0b1220/9ca3af/png?text=Item+2" alt="Minimal Desk Lamp">
+          <div class="card-body">
+            <h3>Minimal Desk Lamp</h3>
+            <p class="price">$24.50</p>
+            <p>Dimmable LED desk lamp with USB power and adjustable arm.</p>
+            <div class="card-actions">
+              <button class="btn" onclick="openCheckout('Minimal Desk Lamp',24.5)">Buy</button>
+              <a class="btn ghost" href="#">More</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Item 3 -->
+        <article id="item3" class="card">
+          <img src="https://placehold.co/600x400/0b1220/9ca3af/png?text=Item+3" alt="Travel Organizer">
+          <div class="card-body">
+            <h3>Travel Organizer</h3>
+            <p class="price">$15.00</p>
+            <p>Lightweight organizer for cables, chargers and small tech.</p>
+            <div class="card-actions">
+              <button class="btn" onclick="openCheckout('Travel Organizer',15.0)">Buy</button>
+              <a class="btn ghost" href="#">More</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="services">
+      <h2>Services</h2>
+      <div class="grid grid-2">
+        <div class="service-card">
+          <h4>Private Labeling Guidance</h4>
+          <p>We can show you steps to add your brand to supplier orders (info pages).</p>
+        </div>
+        <div class="service-card">
+          <h4>Product Sourcing</h4>
+          <p>Sample: contact us and we’ll advise on suppliers and shipping options.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year2"></span> NightDrop</div>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">IG</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
