@@ -1,10 +1,109 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <title>My Website</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>NightDrop — Dropshipping Store</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <meta name="description" content="NightDrop — modern dark themed dropshipping store (sample products)" />
 </head>
 <body>
-  <h1>Welcome to My Website!</h1>
-  <p>This is my first GitHub Pages site.</p>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">NightDrop</a>
+      <nav class="nav" id="nav">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button id="menuBtn" class="menu-btn" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Curated gadgets & home finds — shipped worldwide</h1>
+          <p>Low cost, handpicked items. Sample catalogue to get your store live — replace images and descriptions anytime.</p>
+          <p><a class="btn" href="products.html">Browse Products</a></p>
+        </div>
+        <div class="hero-image">
+          <img alt="Sample product" src="https://placehold.co/600x400/111827/9ca3af/png?text=Featured+Product" />
+        </div>
+      </div>
+    </section>
+
+    <section class="features container">
+      <article class="feature">
+        <h3>Fast Shipping</h3>
+        <p>Works with common dropship suppliers — sample descriptions for each product.</p>
+      </article>
+      <article class="feature">
+        <h3>Secure Payments</h3>
+        <p>Link your payment provider later — this starter is static and easy to connect to Stripe/PayPal.</p>
+      </article>
+      <article class="feature">
+        <h3>Support</h3>
+        <p>Contact form included. Connect to Formspree or other form handler to receive messages by email.</p>
+      </article>
+    </section>
+
+    <section class="preview-products container">
+      <h2>Popular picks</h2>
+      <div class="grid grid-3">
+        <!-- product card sample -->
+        <article class="card">
+          <img src="https://placehold.co/400x300/0b1220/9ca3af/png?text=Item+1" alt="Sample Item 1">
+          <div class="card-body">
+            <h4>Compact Bluetooth Speaker</h4>
+            <p class="price">$29.99</p>
+            <p class="muted">Lightweight, long battery life — great for travel.</p>
+            <div class="card-actions">
+              <a class="btn ghost" href="products.html#item1">View</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://placehold.co/400x300/0b1220/9ca3af/png?text=Item+2" alt="Sample Item 2">
+          <div class="card-body">
+            <h4>Minimal Desk Lamp</h4>
+            <p class="price">$24.50</p>
+            <p class="muted">Dimmable LED lamp, USB powered.</p>
+            <div class="card-actions">
+              <a class="btn ghost" href="products.html#item2">View</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://placehold.co/400x300/0b1220/9ca3af/png?text=Item+3" alt="Sample Item 3">
+          <div class="card-body">
+            <h4>Travel Organizer</h4>
+            <p class="price">$15.00</p>
+            <p class="muted">Keep cables and accessories tidy on the go.</p>
+            <div class="card-actions">
+              <a class="btn ghost" href="products.html#item3">View</a>
+            </div>
+          </div>
+        </article>
+      </div>
+      <p class="center"><a class="btn" href="products.html">See all products</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> NightDrop</div>
+      <div class="socials">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/script.js"></script>
 </body>
 </html>
