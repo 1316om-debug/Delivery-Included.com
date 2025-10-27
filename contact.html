@@ -4,7 +4,29 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Contact — NightDrop</title>
-  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background-color: #0b1220;
+      color: white;
+    }
+    .site-footer {
+      background-color: #111827;
+      color: white;
+    }
+    .contact-section h1,
+    .contact-section h4,
+    .contact-section p,
+    .muted,
+    .form-note,
+    .form-note strong,
+    .form-note ol li {
+      color: white;
+    }
+    .contact-section a {
+      color: #a855f7;
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -26,7 +48,6 @@
       <p class="muted">Have a question or want product sourcing help? Use the form below.</p>
 
       <form id="contactForm" class="contact-form" method="POST" action="https://formspree.io/f/yourformid">
-        <!-- Replace the action with your Formspree endpoint (instructions below) -->
         <label>
           Your name
           <input name="name" type="text" required />
