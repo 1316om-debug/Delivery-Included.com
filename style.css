@@ -139,19 +139,3 @@ footer {
   color: #aaa;
   background-color: rgba(0, 0, 0, 0.7);
 }
-/* ===== Make all text white except product titles ===== */
-
-/* General white text */
-.products-list p,
-.products-list .price,
-.products-list h1,
-.services h2,
-.services h4,
-.services p {
-  color: #ffffff;
-}
-
-/* Keep product titles same color */
-.products-list h3 {
-  color: inherit; /* Keeps whatever color you already set */
-}
