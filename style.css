@@ -3,12 +3,11 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
-  color: #ffffff;
+  color: #000000;
   background: url('https://images.pexels.com/photos/169647/pexels-photo-169647.jpeg?auto=compress&cs=tinysrgb&w=1920') no-repeat center center fixed;
   background-size: cover;
   background-attachment: fixed;
 }
-
 /* Overlay for readability */
 body::before {
   content: "";
